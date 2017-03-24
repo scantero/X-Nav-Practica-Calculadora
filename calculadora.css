@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: -webkit-linear-gradient(left, grey, #DDD);
+}
+
+
+.calc{
+  margin: 50px auto;
+  padding-top: 20px;
+  width: 350px;
+  height: 422px;
+  /*background-color: #3E817A;
+  background-image: -webkit-linear-gradient(#DDD 0px, #FFF 3px, #DDD 5px, #DDD 435px, #ccc 440px, #DDD 450px);
+  background-image: -o-linear-gradient(#DDD 0px, #FFF 3px, #DDD 5px, #DDD 435px, #ccc 440px, #DDD 450px);
+  background-image: linear-gradient(#DDD 0px, #FFF 3px, #DDD 5px, #DDD 435px, #ccc 440px, #DDD 450px);*/
+  background-image: -webkit-linear-gradient(top, #009283, #00EED6);
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px #888, 0px 0px 15px #777;
+}
+
+.display{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.display input{
+  height: 45px;
+  width: 300px;
+  background: -webkit-linear-gradient(#323232, #4e4e4e);
+  background: -o-linear-gradient(#323232, #4e4e4e);
+  background: linear-gradient(#323232, #4e4e4e);
+  border: 2px solid #555;
+  border-radius: 5px;
+  font-size: 40px;
+  text-align: right;
+  padding: 2px;
+  color: #76816a;
+}
+.buttons{
+  padding: 0 18px 0 18px;
+}
+
+.buttons button{
+  margin: 5px 3.5px;
+  font-size: 22px;
+  color: #5e5e5d;
+  font-weight: bold;
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #8a8a7b;
+  background: -webkit-linear-gradient(#DCD6D0 0px, #ECE9E5 2px, #DCD6D0 4px, #C5C1BB 50px, #B5AEA6 52px, #C5C1BB 55px);
+  background: -o-linear-gradient(#DCD6D0 0px, #ECE9E5 2px, #DCD6D0 4px, #C5C1BB 50px, #B5AEA6 52px, #C5C1BB 55px);
+  background: linear-gradient(#DCD6D0 0px, #ECE9E5 2px, #DCD6D0 4px, #C5C1BB 50px, #B5AEA6 52px, #C5C1BB 55px);
+  box-shadow: 1px 1px 2px #888;
+}
+.buttons button:hover{
+  color: #3e3e3d;
+  background: -webkit-linear-gradient(#B5AEA6 2px, #C5C1BB 4px, #DCD6D0 50px, #C5C1BB 55px);
+  background: -o-linear-gradient(#B5AEA6 2px, #C5C1BB 4px, #DCD6D0 50px, #C5C1BB 55px);
+  background: linear-gradient(#B5AEA6 2px, #C5C1BB 4px, #DCD6D0 50px, #C5C1BB 55px);
+  box-shadow: 1px 1px 2px #888, 1px 1px 2px #B5AEA6 inset;
+  cursor: pointer;
+}
+
+.buttons .operatormult, .buttons .operatordivide, .buttons .operatorbrack, .buttons .operatorroot, .buttons .operator, .buttons #backspace{
+  color: #fff;
+  background: -webkit-linear-gradient(#9D9994 0px, #AEABA6 2px, #9D9994 4px, #79736D 50px, #5A5652 52px, #79736D 55px);
+  background: -o-linear-gradient(#9D9994 0px, #AEABA6 2px, #9D9994 4px, #79736D 50px, #5A5652 52px, #79736D 55px);
+  background: linear-gradient(#9D9994 0px, #AEABA6 2px, #9D9994 4px, #79736D 50px, #5A5652 52px, #79736D 55px);
+}
+.buttons .operatormult, .buttons .operatordivide, .buttons .operatorbrack, .buttons .operatorroot, .buttons .operator:hover,  .buttons #backspace:hover{
+  color: #eee;
+  background: -webkit-linear-gradient(#5A5652 2px, #79736D 4px, #9D9994 50px, #79736D 55px);
+  background: -o-linear-gradient(#5A5652 2px, #79736D 4px, #9D9994 50px, #79736D 55px);
+  background: linear-gradient(#5A5652 2px, #79736D 4px, #9D9994 50px, #79736D 55px);
+}
+.buttons .col-2{
+  width: 117px;
+}
+
+.buttons .col-1{
+  width: 117px;
+}
+
+.buttons #equal, .buttons #reset{
+  color: #fff;
+  background: -webkit-linear-gradient(#F8A452 0px, #F8EBC2 2px, #F8A452 4px, #F18C27 50px, #D47C25 52px, #F18C27 55px);
+  background: -o-linear-gradient(#F8A452 0px, #F8EBC2 2px, #F8A452 4px, #F18C27 50px, #D47C25 52px, #F18C27 55px);
+  background: linear-gradient(#F8A452 0px, #F8EBC2 2px, #F8A452 4px, #F18C27 50px, #D47C25 52px, #F18C27 55px);
+}
+
+.buttons #equal:hover, .buttons #reset:hover{
+  color: #eee;
+  background: -webkit-linear-gradient(#D47C25 2px, #F18C27 4px, #F8A452 50px, #F18C27 55px);
+  background: -o-linear-gradient(#D47C25 2px, #F18C27 4px, #F8A452 50px, #F18C27 55px);
+  background: linear-gradient(#D47C25 2px, #F18C27 4px, #F8A452 50px, #F18C27 55px);
+}
